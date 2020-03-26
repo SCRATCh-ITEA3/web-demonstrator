@@ -38,26 +38,6 @@ steps:
       from_secret: dockerhub_user
     password:
       from_secret: dockerhub_password
-    repo: scratchitea3/demonstrator
+    repo: scratchitea3/web-demonstrator
     tags:
       - latest
-
-
----
-kind: pipeline
-type: docker
-name: notification
-
-steps:
-- name: slack
-  image: plugins/slack
-  settings:
-    webhook:
-      from_secret: slack_webhook
-    channel: build-automation
-    when:
-      status: [ success, failure ]
-
-depends_on:
-- arm
-- x86
