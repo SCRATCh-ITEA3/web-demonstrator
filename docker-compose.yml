@@ -2,10 +2,8 @@ version: '3'
 
 services:
     www:
-      build: .
+      image: scratchitea3/web-demonstrator:latest
       ports:
         - 8080:8080
-#      volumes:
-#        - /www:/var/www/html
-#    lt:
-#      image: scratchitea3/iotunnel
+    lt:
+      image: scratchitea3/iotunnel:latest
