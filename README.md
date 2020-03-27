@@ -1,5 +1,10 @@
 # web-demonstrator
 
+derived from: https://github.com/TrafeX/docker-php-nginx
+
+building for ARM
+
+
 
 running the demonstrator
 
@@ -9,4 +14,4 @@ cd web-demonstrator
 docker-compose up
 ```
 
-Find your dynamic host at https://nodered.cloud.consider-ip.com/scratch/show
+Find your dynamic host at https://nodered.consider-iot.com/scratch/show
