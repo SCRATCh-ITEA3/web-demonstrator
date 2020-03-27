@@ -1,2 +1,2 @@
 FROM trafex/alpine-nginx-php7
-ADD ./www/* /var/www/html/
+COPY --chown=nobody ./src/ /var/www/html/
