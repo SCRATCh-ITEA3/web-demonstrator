@@ -1,5 +1,2 @@
-FROM node
-RUN npm install -g localtunnel
-ADD register.sh ./
-RUN chmod 755 register.sh
-ENTRYPOINT ./register.sh
+FROM trafex/alpine-nginx-php7
+ADD ./www/* /var/www/html/

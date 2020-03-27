@@ -6,11 +6,6 @@ platform:
   arch: arm
 
 steps:
-- name: codacy
-  image: plugins/codacy
-  settings:
-    token:
-      from_secret: codacy_token
 
 - name: docker
   image: plugins/docker

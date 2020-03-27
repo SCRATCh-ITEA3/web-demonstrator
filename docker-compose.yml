@@ -2,10 +2,10 @@ version: '3'
 
 services:
     www:
-      image: nginxdemos/hello
-    lt:
-      build:
-        context: ./
-        dockerfile: Dockerfile-lt
-      depends_on:
-       - www
+      build: .
+      ports:
+        - 8080:8080
+      volumes:
+        - /www:/var/www/html
+#    lt:
+#      image: scratchitea3/iotunnel
