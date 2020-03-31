@@ -14,4 +14,8 @@ cd web-demonstrator
 docker-compose up
 ```
 
-Find your dynamic host at https://nodered.consider-iot.com/scratch/show
+To quickly find your device (given you access it from the same network) go to:
+* https://nodered.consider-iot.com/scratch/mydevice
+
+To see all devices (during debugging phase) go to:
+* https://nodered.consider-iot.com/scratch/show

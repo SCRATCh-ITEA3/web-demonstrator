@@ -90,7 +90,7 @@ function changeCookie() {
     <div id="footer">
         <div id="center" align="center">
             Request time: <?php echo $_SERVER['REQUEST_TIME'] ?><br/>
-            <a href="https://scratch-itea3.eu">SCRATCh ITEA3 Project</a> - supported by <a href="https://itea3.org/">ITEA3</a>, <a href="https://www.bmbf.de/">BMBF</a>, <a href="">DLR</a>. <br>Modified by <a href="https://www.consider-it.de">consider it GmbH</a> <br />&copy; NGINX, Inc. 2018 
+            <a href="https://scratch-itea3.eu">SCRATCh ITEA3 Project</a> - supported by <a href="https://itea3.org/">ITEA3</a>, <a href="https://www.bmbf.de/">BMBF</a>, <a href="">DLR</a>. <br>Modified by <a href="https://www.consider-it.de">consider it GmbH</a> <br />&copy; NGINX, Inc. 2018
         </div>
     </div>
 </body>
@@ -98,6 +98,6 @@ function changeCookie() {
 
 
 <?php
-if ($_GET['phpinfo']=="true")
+if (isset($_GET['phpinfo']))
   echo phpinfo();
 ?>
