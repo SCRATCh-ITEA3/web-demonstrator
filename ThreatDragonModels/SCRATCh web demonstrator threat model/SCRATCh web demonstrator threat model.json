@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "title": "SCRATCh web demonstrator threat model",
+    "owner": "Till"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Merijn"
+      }
+    ],
+    "diagrams": [],
+    "reviewer": "Franklin & Merijn"
+  }
+}
