@@ -9,7 +9,13 @@
         "name": "Merijn"
       }
     ],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "Threat model",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": "Franklin & Merijn"
   }
 }
