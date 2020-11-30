@@ -29,16 +29,24 @@
               "angle": 0,
               "id": "e6693eaa-d687-4f0c-9c57-20d1cee5f986",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "Spoofing Noah"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "actor 0"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -49,8 +57,8 @@
                 "height": 100
               },
               "position": {
-                "x": 444,
-                "y": 39
+                "x": 155,
+                "y": 278
               },
               "angle": 0,
               "id": "bafb8524-eaed-4e89-b91d-0d00a8b6aa72",
